@@ -9,7 +9,7 @@ import argparse
 import zenoh
 import usb.core
 
-from gamepad import create_gamepad, GamepadState
+from gamepad import create_gamepad
 from utils import enclose_from_boolean, enclose_from_float, enclose_from_string
 
 logger = logging.getLogger("keelson-connector-gamepad")
